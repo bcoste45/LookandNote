@@ -1,0 +1,257 @@
+﻿<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Jean-Michel Couvreur">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.02 [en] (Win95; I) [Netscape]">
+   <TITLE>D&eacute;finition des besoins</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER><FONT COLOR="#000000"><FONT SIZE=+4>D&eacute;finition des besoins</FONT></FONT>
+<HR WIDTH="100%"></CENTER>
+
+<H1>1- Prototype papier / Pr&eacute; manuel utilisateur</H1>
+[mettre image prototype papier et explication a chaque fois]
+
+<H1>2- Besoins fonctionnels</H1>
+<UL><I>Cette partie d&eacute;crit de mani&egrave;re structur&eacute;e les
+fonctionalit&eacute;s du syst&egrave;me. Pour chaque fonctionalit&eacute;,
+une description narrative est donn&eacute;e.</I></UL>
+
+<ul>
+
+<li><H2>Connexion/d&eacute;connexion :</H2></li>
+
+<ul>
+<li><H3>Inscription client :</H3></li>
+<ul>
+<li><b>Description :</b>Un utilisateur s'inscrit en donnant un identifiant, une adresse mail valide et un mot de passe</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'utilisateur doit absolument s'inscrire pour avoir un compte Look&Note</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+
+<br>
+
+<li><H3>Connexion client :</H3></li>
+
+<ul>
+<li><b>Description :</b>Un utilisateur se connecte en donnant son identifiant et son mot de passe. Après v&eacute;rification, l'utilisateur passe en mode connect&eacute;</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'utilisateur doit absolument se connecter pour acc&eacute;der à son espace personnel</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+
+<br>
+
+<li><H3>D&eacute;connexion client:</H3></li>
+
+<ul>
+<li><b>Description :</b>Un utilisateur se d&eacute;connecte en cliquant sur D&eacute;connexion. Ceci le renvoie sur la page de connexion Look&Note</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Si l'utilisateur souhaite se connecter sur un autre compte Look&Note, il devra se d&eacute;connecter d'abord de son compte courant</li>
+<li><b>Contraintes : </b>Accès à partir de toutes les pages du compte utilisateur</li>
+</ul>
+</ul>
+</ul>
+
+<br>
+
+<ul>
+
+<li><H2>Publication :</H2></li>
+
+<ul>
+<li><H3>Publier :</H3></li>
+<ul>
+<li><b>Description :</b>L'utilisateur peut lui seul publier une photo ou une vid&eacute;o à partir de la page Publier de son profil et choisir des critères selon lesquels elle va être jug&eacute;e, cette dernière peut être supprim&eacute;e dans la page Profil du profil de l'utilisateur</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'utilisateur doit avoir la possibilit&eacute; de publier des photos afin qu'elles soient jug&eacute;es, ceci &eacute;tant l'objectif même du site</li>
+<li><b>Contraintes : </b>Les amis de l'utilisateur n'ont pas le droit de publier une photo dans son profil</li>
+</ul>
+
+<br>
+
+<li><H3>&eacute;valuations/commentaires :</H3></li>
+
+<ul>
+<li><b>Description :</b>Les amis de l'utilisateur doivent avoir la possibilit&eacute; de noter et de commenter ses photos via les pages Accueil et Profil de l'utilisateur. Ce dernier doit pouvoir à partir de la page &eacute;valuations commenter ses publications et consulter les commentaires ainsi que les notes qui lui ont &eacute;t&eacute; attribu&eacute;es et celles qu'il a donn&eacute;. L'&eacute;valuation se fait en attribuant une note : 1, 2, 3, 4 ou 5. L'utilisateur peut noter et commenter à son tour les photos de ses amis via les pages Accueil et Profil de ses amis</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>La possibilit&eacute; de commenter et de noter les photos permet à l'utilisateur de connaître l'avis des ses amis et de leurs cot&eacute;s de connaître le sien</li>
+</ul>
+</ul>
+</ul>
+
+<br>
+
+<ul>
+
+<li><H2>Statistiques :</H2></li>
+
+<ul>
+<li><H3>Statistiques par photo :</H3></li>
+<ul>
+<li><b>Description :</b>L'utilisateur et ses amis doivent pouvoir consulter les statistiques d'une photo en cliquant dessus, celles-ci correspondent au nombre de personnes qui ont attribu&eacute; une note de 1, 2, 3, 4 ou 5</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Les statistiques par photo donnent un aperçu plus pr&eacute;cis des notes attribu&eacute;es</li>
+<li><b>Contraintes : </b>Ces statistiques sont visibles par l'utilisateur et ses amis</li>
+</ul>
+
+<br>
+
+<li><H3>Statistiques par profil :</H3></li>
+
+<ul>
+<li><b>Description :</b>L'utilisateur et ses amis doivent pouvoir consulter les statistiques d'une personne en se mettant sur la page Profil, ces dernières sont relatives à la moyenne des notes donn&eacute;es, la moyenne des notes obtenues, le nombre de notes donn&eacute;es, le nombre de notes obtenues et le nombre de publications</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Les statistiques par profil donnent un aperçu sur le taux d'activit&eacute; de l'utilisateur</li>
+<li><b>Contraintes : </b>Ces statistiques sont visibles par l'utilisateur et ses amis et l'accès se fait à partir de la page Publier</li>
+</ul>
+</ul>
+</ul>
+
+<br>
+
+<ul>
+
+<li><H2>Amis :</H2></li>
+
+<ul>
+<li><H3>Rechercher des amis :</H3></li>
+<ul>
+<li><b>Description :</b>L'utilisateur a la possibilit&eacute; de rechercher des amis</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est de rechercher des amis afin de pouvoir les ajouter parmi sa liste d'amis</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page Amis</li>
+</ul>
+
+<br>
+
+<li><H3>Ajouter des amis :</H3></li>
+
+<ul>
+<li><b>Description :</b>L'utilisateur a la possibilit&eacute; d'ajouter des amis à sa liste d'amis en leur envoyant une demande d'ajout</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est d'avoir plus d'amis</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page Amis</li>
+<li><b>D&eacute;veloppement : </b>Recherche par mots cl&eacute;s de la personne que l'utilisateur souhaite ajouter parmi ses amis puis envoi de la demande d'ajout. Celle-ci se met en attente et le destinataire reçois un message de l'exp&eacute;diteur qui souhaite l'ajouter, si le destinataire accepte la demande de celui-ci, chacun ouvrira les droits à l'autre d'acc&eacute;der de manière complète à son profil</li>
+</ul>
+
+<br>
+
+<li><H3>Supprimer des amis :</H3></li>
+
+<ul>
+<li><b>Description :</b> L'utilisateur a la possibilit&eacute; de supprimer des amis de sa liste d'amis</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est de supprimer les personnes que l'utilisateur ne souhaite plus compter parmi sa liste d'amis</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page Amis</li>
+</ul>
+</ul>
+</ul>
+
+<br>
+
+<ul>
+
+<li><H2>Contact et l&eacute;gislation :</H2></li>
+
+<ul>
+<li><H3>A propos du site :</H3></li>
+<ul>
+<li><b>Description :</b>Les utilisateurs peuvent acc&eacute;der via la page A propos à une description d&eacute;taill&eacute;e du site Look&Note</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est de d&eacute;crire à quoi sert le site afin d'attirer l'oeil des futurs utilisateurs</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+
+<br>
+
+<li><H3>Prendre contact :</H3></li>
+
+<ul>
+<li><b>Description :</b>Un utilisateur peut prendre contact avec le site Look&Note via la page Nous contacter en fournissant des informations relatives à sa civilit&eacute;, son adresse mail, son nom, son pr&eacute;nom, le sujet de contact et une description d&eacute;taill&eacute;e</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est de r&eacute;pondre aux interrogations des utilisateurs et de recueillir leurs avis et remarques afin d'am&eacute;liorer le site</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+
+<br>
+
+<li><H3>Confidentialit&eacute; :</H3></li>
+
+<ul>
+<li><b>Description :</b> D&eacute;finir les règles de confidentialit&eacute; que le site Look&Note s'engage à respecter</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>L'objectif est de faire connaître auprès des utilisateurs la politique du site en indiquant le type de donn&eacute;es qu'il recueille et l'utilisation qu'il en fait</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+
+<br>
+
+<li><H3>Conditions d'utilisation :</H3></li>
+
+<ul>
+<li><b>Description :</b> D&eacute;finir les conditions g&eacute;n&eacute;rales d'utilisation (CGU) du site Look&Note</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Interdire d'utiliser un compte Look&Note pour la conduite d'activit&eacute;s qui incluent, sans restreindre la port&eacute;e g&eacute;n&eacute;rale de certaines pratiques</li>
+<li><b>Contraintes : </b>Accès unique à partir de la page de connexion Look&Note</li>
+</ul>
+</ul>
+</ul>
+
+<br>
+
+
+<H1>3- Besoins non fonctionnels</H1>
+<UL>Les contraintes d''usage des fonctions.
+<BR>Les contraintes de conception et de performance.
+<BR>Qualit&eacute;s attendues du logiciel</UL>
+
+<ul>
+
+<li><H2>Couleurs et styles :</H2></li>
+
+<ul>
+
+<li><b>Description :</b>Utilisation de couleurs agr&eacute;ables et attirantes, le bandeau sup&eacute;rieur devra être dans un orange d&eacute;grad&eacute;, la partie inf&eacute;rieure sera en fond blanc avec un m&eacute;lange de couleurs modernes</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Rendu visuel agr&eacute;able, attirant et moderne</li>
+<li><b>D&eacute;veloppement : </b>Affichage avec des styles CSS et des balises HTML</li>
+</ul>
+
+<br>
+
+<li><H2>Base de donn&eacute;es :</H2></li>
+
+<ul>
+<li><b>Description :</b>D&eacute;velopper une base de donn&eacute;es avec des tables pour enregistrer les donn&eacute;es des comptes utilisateurs, à savoir : le nom d'utilisateur, le mot de passe, l'adresse mail, les photos publi&eacute;es, les critères de jugement, les commentaires, les notes donn&eacute;es, les notes attribu&eacute;es, la moyenne des notes donn&eacute;es, la moyenne des notes obtenues, le nombre de notes donn&eacute;es, le nombre de notes obtenues et le nombre de publications</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>Justification : </b>Enregistrement des donn&eacute;es personnelles de l'utilisateur</li>
+<li><b>D&eacute;veloppement : </b>La base de donn&eacute;es est d&eacute;velopp&eacute;e en MySQL</li>
+</ul>
+
+<br>
+
+<li><H2>Pages web:</H2></li>
+
+<ul>
+<li><b>Description :</b>D&eacute;velopper des pages web contenant des liens sur d'autres pages web et dans lesquels il est possible de faire des recherches par mots cl&eacute;s</li>
+<li><b>Priorit&eacute; : </b>Obligatoire</li>
+<li><b>D&eacute;veloppement : </b>Les pages web sont d&eacute;velopp&eacute;es avec du code HTML et des styles CSS, elles sont g&eacute;r&eacute;es avec du code PHP qui permet &eacute;galement d'encapsuler des requêtes MySQL pour la gestion des bases de donn&eacute;es</li>
+</ul>
+
+</ul>
+
+<br>
+
+<H1>4- Plate-forme cible et de d&eacute;veloppement</H1>
+[Parler du serveur Free]
+
+<H1>5- Analyse des risques</H1>
+
+<HR WIDTH="100%">
+<BR><A HREF="acceuil.htm">titre du projet</A>
+<BR>&nbsp;
+</BODY>
+</HTML>
